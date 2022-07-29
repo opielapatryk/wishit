@@ -4,9 +4,36 @@
 }
 body{
   background-color: #333;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 header{
   color: orangered;
   text-shadow: 3px 3px 5px rgb(214, 12, 12);
-  padding: 10px 20px;
+  padding-top: 10px;
+}
+
+section{
+  color: white;
+  margin-top: 20px;
+  font-size: .8em;
+}
+
+#submit{
+  width: 100%;
+  margin-top: 10px;
+  letter-spacing: .2em;
+}
+
+#submit:hover{
+  transition: background 1s;
+  cursor: pointer;
+  color:white;
+  background-color: orangered;
+  box-shadow: rgb(214, 12, 12) 1px 1px 1px 1px;
+  border: none;
+}
+
+#birthday-name{
+  margin-top: 5px;
 }

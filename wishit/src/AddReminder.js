@@ -1,6 +1,6 @@
-import './App.css';
+import './AddReminder.css';
 
-function App() {
+function AddReminder() {
   return (
     <main>
         <header>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default AddReminder;

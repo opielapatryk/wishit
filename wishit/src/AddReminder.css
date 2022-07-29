@@ -18,6 +18,11 @@ section{
   font-size: .8em;
 }
 
+input{
+  background-color: white;
+  border-radius: 0;
+}
+
 #submit{
   width: 100%;
   margin-top: 10px;
